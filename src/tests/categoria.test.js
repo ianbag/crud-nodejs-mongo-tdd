@@ -5,13 +5,13 @@
  * @Última hora modificada: 2019-02-10 17:44:33 
 */
 
-const chai = require('chai')
-const chaiHttp = require('chai-http')
-const expect = chai.expect
+const chai = require('chai');
+const chaiHttp = require('chai-http');
+const expect = chai.expect;
 
-const server = require('./../../server')
-const CategoriaModel = require('./../app/models/categoria')
-chai.use(chaiHttp)
+const server = require('./../../server');
+const CategoriaModel = require('./../app/models/categoria');
+chai.use(chaiHttp);
 
 const MOCK_CATEGORIA_DEFAULT = {
     nome: 'Massas',
